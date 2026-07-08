@@ -11,6 +11,26 @@
   }
 }
 
+.educations-body-div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 30px;
+  row-gap: 30px;
+  align-items: stretch;
+}
+
+@media (max-width: 1380px) {
+  .educations-body-div {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1024px) {
+  .educations-body-div {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 768px) {
   .educations-header {
     font-size: 30px;

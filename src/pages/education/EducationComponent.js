@@ -37,6 +37,7 @@ class Education extends Component {
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>
+            <hr style={{ backgroundColor: theme.dividerColor }} />
           </Fade>
           <Educations theme={this.props.theme} />
           {certifications.certifications.length > 0 ? (

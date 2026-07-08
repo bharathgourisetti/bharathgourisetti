@@ -21,24 +21,25 @@ const seo = {
 const greeting = {
   title: "Bharath Gourishetty",
   logo_name: "Bharath Gourishetty",
-  nickname: "Software Developer",
+  nickname: "SeniorSoftware Engineer",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://docs.google.com/document/d/1EdVQcdmjSpJRlcHDiTZHHMrsEmACiBiR/view?usp=sharing",
-  portfolio_repository: "https://github.com/bharathgourisetti/bharathgourishettyportfolio",
+    // "https://docs.google.com/document/d/1EdVQcdmjSpJRlcHDiTZHHMrsEmACiBiR/view?usp=sharing",
+    "https://docs.google.com/document/d/1VGgk57PvqNZ3VFmscKCNFn8QngltlhBm/view?usp=sharing",
+  portfolio_repository: "https://github.com/bharathgourisetti",
   githubProfile: "https://github.com/bharathgourisetti",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
   // github: "https://github.com/bharathgourisetti",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+  // linkedin: "https://www.linkedin.com/in/bharath-gourishetty-66842816a/",
+  // gmail: "bharathgourisetti@gmail.com",
+  // gitlab: "https://gitlab.com/bharathgourisetti",
+  // facebook: "https://www.facebook.com/bharathgourishetty",
+  // twitter: "https://twitter.com/bharathgourisetti",
+  // instagram: "https://www.instagram.com/bharathgourishetty/"
 
   {
     name: "Github",
@@ -183,19 +184,57 @@ const skills = {
             color: "#DD0031",
           },
         },
-        { skillName: "C#", fontAwesomeClassname: "simple-icons:csharp", style: { color: "#239120" } }, 
-        // { "skillName": ".NET Core", "fontAwesomeClassname": "simple-icons:dot-net", "style": { "color": "#512BD4" } }, 
-        // { "skillName": "ADO.NET", "fontAwesomeClassname": "fa-solid fa-database", "style": { "color": "#4479A1" } },
-        // { skillName: ".NET Core", fontAwesomeClassname: "simple-icons:dot-net", style: { color: "#512BD4" } }, 
-        // { skillName: "ADO.NET", fontAwesomeClassname: "simple-icons:database", style: { color: "#4479A1" } }, 
-        { skillName: "SQL Server", fontAwesomeClassname: "simple-icons:microsoftsqlserver", style: { color: "#CC2927" } },
-        { skillName: "Visual Studio", fontAwesomeClassname: "simple-icons:visualstudio", style: { color: "#5C2D91" } }, 
-        { skillName: "Visual Studio Code", fontAwesomeClassname: "simple-icons:visualstudiocode", style: { color: "#007ACC" } }, 
-        // { skillName: "SQL Server Management Studio", fontAwesomeClassname: "simple-icons:microsoftsqlserver", style: { color: "#CC2927" } }, 
-        { skillName: "GitHub", fontAwesomeClassname: "simple-icons:github", style: { color: "#181717" } }, 
-        { skillName: "Firebase", fontAwesomeClassname: "simple-icons:firebase", style: { color: "#FFCA28" } },
-        { skillName: "Azure DevOps", fontAwesomeClassname: "simple-icons:azuredevops", style: { color: "#0078D7" } }, 
-        { skillName: "WordPress", fontAwesomeClassname: "simple-icons:wordpress", style: { color: "#21759B" } }, 
+        {
+          skillName: "C#",
+          fontAwesomeClassname: "simple-icons:csharp",
+          style: { color: "#239120" },
+        },
+        {
+          skillName: ".NET Core",
+          fontAwesomeClassname: "simple-icons:dotnet",
+          style: { color: "#512BD4" },
+        },
+        {
+          skillName: "ADO.NET",
+          fontAwesomeClassname: "mdi:database",
+          style: { color: "#4479A1" },
+        },
+        // { skillName: "SQL Server", fontAwesomeClassname: "simple-icons:microsoftsqlserver", style: { color: "#CC2927" } },
+        {
+          skillName: "Visual Studio",
+          fontAwesomeClassname: "simple-icons:visualstudio",
+          style: { color: "#5C2D91" },
+        },
+        {
+          skillName: "Visual Studio Code",
+          fontAwesomeClassname: "simple-icons:visualstudiocode",
+          style: { color: "#007ACC" },
+        },
+        {
+          skillName: "SQL Server Management Studio",
+          fontAwesomeClassname: "simple-icons:microsoftsqlserver",
+          style: { color: "#CC2927" },
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
+          style: { color: "#181717" },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: { color: "#FFCA28" },
+        },
+        {
+          skillName: "Azure DevOps",
+          fontAwesomeClassname: "simple-icons:azuredevops",
+          style: { color: "#0078D7" },
+        },
+        {
+          skillName: "WordPress",
+          fontAwesomeClassname: "simple-icons:wordpress",
+          style: { color: "#21759B" },
+        },
         // {
         //   skillName: "NodeJS",
         //   fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
@@ -409,7 +448,19 @@ const degrees = {
   degrees: [
     {
       title: "Acharya Nagarjuna University (ANU)",
-      subtitle: "BSC. in Computer Science",
+      subtitle: "Post Graduation - Mater of Computer Applications (MCA)",
+      logo_path: "anu.png",
+      alt_name: "ANU Guntur",
+      duration: "2019 - 2021",
+      descriptions: [
+        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        "⚡ While Persuing MCA at university, I have started working at KJ Systems India PVT LTD.",
+      ],
+      website_link: "https://www.nagarjunauniversity.ac.in/",
+    },
+    {
+      title: "Acharya Nagarjuna University (ANU)",
+      subtitle: "Graduation - BSC. in Computer Science",
       logo_path: "anu.png",
       alt_name: "ANU Guntur",
       duration: "2016 - 2019",
@@ -420,16 +471,41 @@ const degrees = {
       website_link: "https://www.nagarjunauniversity.ac.in/",
     },
     {
-      title: "Acharya Nagarjuna University (ANU)",
-      subtitle: "Mater of Computer Applications(MCA)",
-      logo_path: "anu.png",
-      alt_name: "ANU Guntur",
-      duration: "2019 - 2021",
+      title: "Educational Gap 1 Yr",
+      subtitle: "EAMCET Preparation",
+      logo_path: "apeamcet.png",
+      alt_name: "AP EAMCET",
+      duration: "2015 - 2016",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ While Persuing MCA at university, I have started working at KJ Systems India PVT LTD.",
+        "⚡ In the gap period after my intermediate, I was preparing for EAMCET exam long-term but unfortunately I was not able to clear the exam and I have joined in Acharya Nagarjuna University for my BSC. in Computer Science.",
       ],
-      website_link: "https://www.nagarjunauniversity.ac.in/",
+      // website_link: "https://eapcet-sche.aptonline.in/",
+    },
+    {
+      title: "Sri Chaitanya Junior College",
+      subtitle: "AP-BISE - MPC (Mathematics, Physics, Chemistry) Intermediate",
+      logo_path: "apbise.png",
+      alt_name: "Srichaitanya Vijayawada",
+      duration: "2013 - 2015",
+      descriptions: [
+        "⚡ Completed intensive higher secondary education with a core focus on Mathematics, Physics, and Chemistry (MPC).",
+        "⚡ Developed strong analytical, logical reasoning, and fundamental scientific problem-solving skills.",
+      ],
+      // website_link: "https://srichaitanya.net/",
+      website_link: "https://bie.ap.gov.in/",
+    },
+    {
+      title: "Bhashyam High Schools",
+      subtitle: "AP-BSE - 10th Standard (Board of Secondary Education)",
+      logo_path: "bseap.png",
+      alt_name: "Bhasyam Vijayawada",
+      duration: "2013",
+      descriptions: [
+        "⚡ Successfully completed the Secondary School Certificate (SSC) curriculum.",
+        "⚡ Built a robust foundational groundwork in analytical thinking, mathematics, and science concepts.",
+      ],
+      // website_link: "https://www.bhashyamschools.com/",
+      website_link: "https://bseap.in/",
     },
   ],
 };
@@ -550,11 +626,11 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
-  description:
-    `I have worked with many evolving startups as Software Developer. 
-    I have also worked with some well established companies mostly as Software Developer. 
-    I love organising events and that is why I am also involved with many opensource communities as a representative.`,
+  // subtitle: "Work, Internship and Volunteership",
+  subtitle: "Total Years of Work Experience - 4.6+ Years",
+  description: `I have worked with many evolving startups as Software Engineer. 
+     I have also worked with some well established companies mostly as Software Developer. 
+     I love organising events and that is why I am also involved with many opensource communities as a representative.`,
   header_image_path: "experience.svg",
   sections: [
     {
@@ -562,49 +638,40 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Senior Software Engineer",
+          company: "LTIMindtree Ltd. alias LTM Ltd.",
+          company_url: "https://www.ltm.com/",
+          logo_path: "ltmlogo.png",
+          duration: "28th October 2025 - Present (0 Years 8 Months+)",
+          location: "LTM Metro STPI, Opp Ikea, Hyderabad, Telangana, India",
+          description:
+            "Contributed as a Full Stack Developer on a high-impact Microsoft project, focusing on the development and optimization of an Enterprise Commerce Application. Built robust, scalable backend services using .NET and paired them with modern, responsive user interfaces in React.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Career Break",
+          company: "In Search of Opportunities & Skills Upgraded",
+          company_url: "https://github.com/bharathgourisetti",
+          logo_path: "careerbreak.png",
+          duration: "1st February 2025 - 27th October 2025 (8 Months 27 Days)",
+          location: "Mangalagiri, Andhra Pradesh, India",
+          description:
+            "Following my time at Kj Systems, I intentionally took some months as transition phase to bridge a few technical gaps and upgrade my full-stack skills. I dedicated this period to mastering modern frameworks like .NET Core Web API, React, and cloud integration, ensuring I was selectively targeting and fully prepared for high-impact, enterprise-level opportunities.",
+          color: "#ee3c26",
+        },
+        {
           title: "Software Developer",
           company: "Kj Systems India.PVT.LTD.",
           company_url: "https://www.ehryourway.com/",
           logo_path: "kjlogo.png",
-          duration: "April 2021 - Present",
+          duration:
+            "5th April 2021 - 30th January 2025 (3 Years 9 Months 25 Days)",
           location: "Mangalagiri, Andhra Pradesh, India",
           description:
-            "Medical billing is the process which encompasses the submission of claims, to get payment for the Medical services provided by the Healthcare Provider. EHR Billing provides a web-based application environment. EHR Billing has been providing Medical Billing services to the Healthcare Professionals, Clinics and Hospitals.",
+            // "Medical billing is the process which encompasses the submission of claims, to get payment for the Medical services provided by the Healthcare Provider. EHR Billing provides a web-based application environment. EHR Billing has been providing Medical Billing services to the Healthcare Professionals, Clinics and Hospitals.",
+            "Contributed as a Full Stack Developer engineering and scaling Electronic Health Record (EHR) and Electronic Medical Record (EMR) applications for AdaptaMed LLC. Built and maintained critical healthcare systems across legacy and modern tech stacks, focusing heavily on core modules including Billing, Demographics, Insurance, and Reports.",
           color: "#000000",
         },
-        // {
-        //   title: "Associate AI Engineer",
-        //   company: "Legato Health Technology",
-        //   company_url: "https://legatohealthtech.com/",
-        //   logo_path: "legato_logo.png",
-        //   duration: "June 2020 - Aug 2021",
-        //   location: "Hyderabad, Telangana",
-        //   description:
-        //     "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-        //   color: "#0879bf",
-        // },
-        // {
-        //   title: "Android and ML Developer",
-        //   company: "Muffito Incorporation",
-        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-        //   logo_path: "muffito_logo.png",
-        //   duration: "May 2018 - Oct 2018",
-        //   location: "Pune, Maharashtra",
-        //   description:
-        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-        //   color: "#9b1578",
-        // },
-        // {
-        //   title: "Android Developer",
-        //   company: "FreeCopy Pvt. Ltd.",
-        //   company_url: "https://www.linkedin.com/company/freecopy/about/",
-        //   logo_path: "freecopy_logo.png",
-        //   duration: "Nov 2017 - Dec 2017",
-        //   location: "Ahmedabad, Gujarat",
-        //   description:
-        //     "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-        //   color: "#fc1f20",
-        // },
       ],
     },
     // {
@@ -713,8 +780,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    `My projects makes use of vast variety of latest technology tools. 
+  description: `My projects makes use of vast variety of latest technology tools. 
     My best experience is to create Latest technical projects and deploy them to web applications using cloud infrastructure.`,
   avatar_image_path: "projects_image.svg",
 };

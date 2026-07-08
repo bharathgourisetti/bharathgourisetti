@@ -9,6 +9,9 @@
 
 .heading-div {
   display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 0;
 }
 
 .heading-div > * {
@@ -19,6 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-height: 320px;
 }
 
 .heading-text-div {
@@ -28,6 +32,7 @@
 .heading-img-div > * {
   max-width: 100%;
   height: auto;
+  max-height: 320px;
 }
 
 .heading-text {
@@ -36,7 +41,7 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .heading-sub-text {

@@ -1,9 +1,53 @@
 {
   "data": [
     {
+      "id": "R_kgDOJWL0-A",
+      "name": "Enterprice Commerce - Volume Licensing Dashboard Application (Microsoft)",
+      "createdAt": "November 2025 - Present",
+      "url": "#",
+      "description": "Its Ordering Dashboard Application for Microsoft Volume Licensing. where we have to create a dashboard for ordering and managing the licenses.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
+        },
+        {
+          "name": "SQL Server Management Studio",
+          "iconifyClass": "simple-icons:microsoftsqlserver",
+          "style": {
+            "color": "#CC2927"
+          }
+        },
+        {
+          "name": "Azure Devops",
+          "iconifyClass": "simple-icons:azuredevops",
+          "style": {
+            "color": "#0078D7"
+          }
+        }
+      ]
+    },
+    {
       "id": "R_kgDOJWL0-g",
       "name": "ehryourway",
-      "createdAt": "(currently working on it..)",
+      "createdAt": "April 2021 - 30th January 2025",
       "url": "https://login.ehryourway.com",
       "description": "Its a product based company, Health care Application with appointments, payment gateways, insurance claims and more.",
       "isFork": false,
@@ -20,15 +64,24 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
-        { "name": "AngularJS", "iconifyClass": "logos-angular-icon" }, 
-        { "name": "C#", "iconifyClass": "logos-c-sharp" }, 
-        { "name": "Database", "iconifyClass": "simple-icons:microsoftsqlserver" }
+        {
+          "name": "AngularJS",
+          "iconifyClass": "logos-angular-icon"
+        },
+        {
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
+        },
+        {
+          "name": "Database",
+          "iconifyClass": "simple-icons:microsoftsqlserver"
+        }
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
       "name": "portal-ehryourway",
-      "createdAt": "(currently working on it..)",
+      "createdAt": "April 2021 - 30th January 2025",
       "description": "Its a product based company, Health care Application with appointments, payment gateways, insurance claims and more.",
       "url": "https://portal.ehryourway.com",
       "isFork": false,
@@ -45,15 +98,34 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
-        { "name": "AngularJS", "iconifyClass": "logos-angular-icon" }, 
-        { "name": "C#", "iconifyClass": "logos-c-sharp" }, 
-        { "name": "Database", "iconifyClass": "simple-icons:microsoftsqlserver" }
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
+        },
+        {
+          "name": "SQL Server Management Studio",
+          "iconifyClass": "simple-icons:microsoftsqlserver",
+          "style": {
+            "color": "#CC2927"
+          }
+        },
+        {
+          "name": "Azure Devops",
+          "iconifyClass": "simple-icons:azuredevops",
+          "style": {
+            "color": "#0078D7"
+          }
+        }
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
       "name": "kiosk-ehryourway",
-      "createdAt": "(currently working on it..)",
+      "createdAt": "April 2021 - 30th January 2025",
       "description": "Its a product based company, Health care Application with appointments, payment gateways, insurance claims and more.",
       "url": "https://kiosk.ehryourway.com",
       "isFork": false,
@@ -70,40 +142,34 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
-        { "name": "AngularJS", "iconifyClass": "logos-angular-icon" }, 
-        { "name": "C#", "iconifyClass": "logos-c-sharp" }, 
-        { "name": "Database", "iconifyClass": "simple-icons:microsoftsqlserver" }
-      ]
-    },
-    {
-      "id": "R_kgDOG_vYHA",
-      "name": "kiosk-ehryourway",
-      "createdAt": "(currently working on it..)",
-      "description": "Its a product based company, Health care Application with appointments, payment gateways, insurance claims and more.",
-      "url": "https://kiosk.ehryourway.com",
-      "isFork": false,
-      "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "ReactJS",
+          "iconifyClass": "logos-react"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "SQL Server Management Studio",
+          "iconifyClass": "simple-icons:microsoftsqlserver",
+          "style": {
+            "color": "#CC2927"
+          }
         },
-        { "name": "AngularJS", "iconifyClass": "logos-angular-icon" }, 
-        { "name": "C#", "iconifyClass": "logos-c-sharp" }, 
-        { "name": "Database", "iconifyClass": "simple-icons:microsoftsqlserver" }
+        {
+          "name": "Azure Devops",
+          "iconifyClass": "simple-icons:azuredevops",
+          "style": {
+            "color": "#0078D7"
+          }
+        }
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
       "name": "internal ticketing system",
-      "createdAt": "(currently working on it..)",
+      "createdAt": "April 2021 - 30th January 2025",
       "description": "Its a product based company, Health care Application with appointments, payment gateways, insurance claims and more.",
       "url": "https://support.ehryourway.com",
       "isFork": false,
@@ -120,15 +186,24 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
-        { "name": "Angular", "iconifyClass": "logos-angular-icon" }, 
-        { "name": "C#", "iconifyClass": "logos-c-sharp" }, 
-        { "name": "Database", "iconifyClass": "simple-icons:microsoftsqlserver" }
+        {
+          "name": "Angular",
+          "iconifyClass": "logos-angular-icon"
+        },
+        {
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
+        },
+        {
+          "name": "Database",
+          "iconifyClass": "simple-icons:microsoftsqlserver"
+        }
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
       "name": "bry-solutions",
-      "createdAt": "(2024)",
+      "createdAt": "2024",
       "description": "it an it consultancy application designed and developed using wordpress",
       "url": "https://bry-solutions.co.uk",
       "isFork": false,
@@ -145,15 +220,24 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
-        { "name": "ReactJS", "iconifyClass": "logos-react" },
-        { "name": "WordPress", "iconifyClass": "logos-wordpress" }, 
-        { "name": "PHP", "iconifyClass": "logos-php"}
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "WordPress",
+          "iconifyClass": "logos-wordpress"
+        },
+        {
+          "name": "PHP",
+          "iconifyClass": "logos-php"
+        }
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
       "name": "qubeservices",
-      "createdAt": "(2024)",
+      "createdAt": "2024",
       "description": "it an it consultancy application designed and developed using wordpress",
       "url": "https://qubesolutions.co.uk",
       "isFork": false,
@@ -170,15 +254,24 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
-        { "name": "ReactJS", "iconifyClass": "logos-react" },
-        { "name": "WordPress", "iconifyClass": "logos-wordpress" }, 
-        { "name": "PHP", "iconifyClass": "logos-php"}
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "WordPress",
+          "iconifyClass": "logos-wordpress"
+        },
+        {
+          "name": "PHP",
+          "iconifyClass": "logos-php"
+        }
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Personal Reactjs Portfolio",
-      "createdAt": "(2024)",
+      "createdAt": "2024",
       "url": "https://github.com/bharathgourisetti/bharathgourisetti",
       "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
       "isFork": false,
@@ -195,13 +288,16 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
-        { "name": "ReactJS", "iconifyClass": "logos-react" }
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos-react"
+        }
       ]
     },
     {
       "id": "R_kgDOG0_8uQ",
       "name": "react-ott-application",
-      "createdAt": "(2024)",
+      "createdAt": "2024",
       "url": "https://github.com/bharathgourisetti/ReactJsProjectForOTTusingFIrebase",
       "description": "🌀 Insert Awesome Movies into Your React Site.",
       "isFork": false,
@@ -218,7 +314,10 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
-        { "name": "ReactJS", "iconifyClass": "logos-react" }
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos-react"
+        }
       ]
     }
   ]

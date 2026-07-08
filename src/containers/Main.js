@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, BrowserRouter } from "react-router-dom";
+import { Route, Switch, BrowserRouter, Redirect } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -8,7 +8,7 @@ import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
-import Error404 from "../pages/errors/error404/Error";
+// import Error404 from "../pages/errors/error404/Error";
 
 export default class Main extends Component {
   render() {
@@ -65,9 +65,15 @@ export default class Main extends Component {
             path="/projects"
             render={(props) => <Projects {...props} theme={this.props.theme} />}
           />
-          <Route
+          {/* <Route
             path="*"
             render={(props) => <Error404 {...props} theme={this.props.theme} />}
+          /> */}
+          <Route
+            path="*"
+            render={(props) => (
+              <Redirect {...props} theme={this.props.theme} to="/" />
+            )}
           />
         </Switch>
       </BrowserRouter>
